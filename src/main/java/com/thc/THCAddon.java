@@ -2,6 +2,7 @@ package com.thc;
 
 import com.thc.hud.THCHud;
 import com.thc.modules.MaceKill;
+import com.thc.modules.PingSpoofer;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -23,6 +24,7 @@ public class THCAddon extends MeteorAddon {
 
         // Register Modules
         Modules.get().add(new MaceKill());
+        Modules.get().add(new PingSpoofer());
 
         // Register HUD
         Hud.get().register(THCHud.INFO);
@@ -40,6 +42,6 @@ public class THCAddon extends MeteorAddon {
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("StubbledBannana", "thc-addon");
+        return new GithubRepo("StubbledBannana", "THC-Addon");
     }
 }

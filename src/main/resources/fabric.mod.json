@@ -8,9 +8,9 @@
     "seasnail"
   ],
   "contact": {
-    "sources": "https://github.com/StubbledBannana/thc-addon"
+    "sources": "https://github.com/StubbledBannana/THC-Addon"
   },
-  "icon": "assets/icon.png",
+  "icon": "assets/thc/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [

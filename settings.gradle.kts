@@ -9,4 +9,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "banana-addon"
+rootProject.name = "thc-addon"

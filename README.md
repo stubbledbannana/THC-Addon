@@ -1,4 +1,4 @@
-* Banana-Addon
+* THC-Addon
 
 
 * Anti Announcement

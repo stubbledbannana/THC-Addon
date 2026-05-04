@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "thc-addon",
+  "version": "${version}",
+  "name": "Banana Addon",
+  "description": "THC-Addon",
+  "authors": [
+    "StubbledBannana"
+  ],
+  "contact": {
+    "sources": "https://github.com/StubbledBannana/THC-Addon"
+  },
+  "icon": "assets/banana/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.thc.THCAddon"
+    ]
+  },
+  "mixins": [
+    "thc-addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,255,0",
+    "modmenu": {
+      "parent": {
+        "id": "meteor-client"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}

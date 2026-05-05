@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "thc-addon",
   "version": "${version}",
-  "name": "Banana Addon",
+  "name": "THC Addon",
   "description": "THC-Addon",
   "authors": [
     "StubbledBannana"
@@ -10,11 +10,11 @@
   "contact": {
     "sources": "https://github.com/StubbledBannana/THC-Addon"
   },
-  "icon": "assets/banana/icon.png",
+  "icon": "assets/thc/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.thc.THCAddon"
+      "com.thcaddons.THCAddon"
     ]
   },
   "mixins": [

@@ -13,6 +13,7 @@ import com.thcaddons.modules.AutoFuckModule;
 import com.thcaddons.modules.NewChunks;
 import com.thcaddons.modules.BetterLocator;
 import com.thcaddons.modules.AutoLogin;
+import com.thcaddons.modules.MaceKill;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -45,6 +46,7 @@ import org.slf4j.Logger;
         Modules.get().add(new NewChunks());
         Modules.get().add(new BetterLocator());
         Modules.get().add(new AutoLogin());
+	Modules.get().add(new MaceKill());
 
         // HUD
         Hud.get().register(THCHud.INFO);
